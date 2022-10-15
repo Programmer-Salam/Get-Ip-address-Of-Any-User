@@ -51,5 +51,5 @@ function transparent_background($filename, $color)
     imagepng($img, $_SERVER['DOCUMENT_ROOT'].'/'.$filename);
 }
 
-//transparent_background('logo_100x100.png', '255,255,255');
+
 ?>
